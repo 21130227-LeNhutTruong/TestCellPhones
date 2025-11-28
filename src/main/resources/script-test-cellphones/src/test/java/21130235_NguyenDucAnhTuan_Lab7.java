@@ -152,8 +152,6 @@ public class TC01FindLocatorNear {
         driver.findElement(By.xpath("//div[@id='filterModule']/div/div[2]/div/div[2]/button[2]")).click();
     }
 
-
-
     @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {
         driver.quit();
