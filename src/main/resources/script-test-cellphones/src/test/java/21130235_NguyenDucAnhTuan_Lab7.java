@@ -179,6 +179,7 @@ public class TC01FindLocatorNear {
         }
     }
 
+
     private String closeAlertAndGetItsText() {
         try {
             Alert alert = driver.switchTo().alert();
