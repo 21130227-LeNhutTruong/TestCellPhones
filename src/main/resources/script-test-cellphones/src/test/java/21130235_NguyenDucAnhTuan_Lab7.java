@@ -1,25 +1,51 @@
-import java.time.Duration;
-import org.testng.annotations.*;
-import static org.testng.Assert.*;
+package com.example;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+import java.util.regex.Pattern;
+import java.util.concurrent.TimeUnit;
+import org.junit.*;
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.apache.commons.io.FileUtils;
+import java.io.File;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
+import java.time.Duration;
 
-public class TC01FindLocatorNear {
-    private WebDriver driver;
-    private String baseUrl;
+import static org.junit.Assert.fail;
+
+public class NguyenDucAnhTuan_21130235_Lab7 {
+    private static WebDriver driver;
+    private static String baseUrl;
     private boolean acceptNextAlert = true;
-    private StringBuffer verificationErrors = new StringBuffer();
-    private JavascriptExecutor js;
+    private static StringBuffer verificationErrors = new StringBuffer();
+    private static JavascriptExecutor js;
 
-    @BeforeClass(alwaysRun = true)
+    //    @Before
+//    public void setUp() throws Exception {
+//        System.setProperty("webdriver.chrome.driver", "");
+//        driver = new ChromeDriver();
+//        baseUrl = "https://www.google.com/";
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+//        js = (JavascriptExecutor) driver;
+//    }
+    @Before
     public void setUp() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "");
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        baseUrl = "https://www.google.com/";
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
         js = (JavascriptExecutor) driver;
     }
+
 
     //Find Locator
     @Test
@@ -152,9 +178,12 @@ public class TC01FindLocatorNear {
         driver.findElement(By.xpath("//div[@id='filterModule']/div/div[2]/div/div[2]/button[2]")).click();
     }
 
-    @AfterClass(alwaysRun = true)
+    @After
     public void tearDown() throws Exception {
-        driver.quit();
+//        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);
@@ -178,7 +207,6 @@ public class TC01FindLocatorNear {
             return false;
         }
     }
-
 
     private String closeAlertAndGetItsText() {
         try {
