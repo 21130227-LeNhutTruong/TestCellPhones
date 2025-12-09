@@ -1,0 +1,341 @@
+Dec 10, 2025 12:40:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:40:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+TC18: Xem thông số kỹ thuật...
+ BẢNG THÔNG SỐ KỸ THUẬT:
+==================================================
+   🔹 Kích thước màn hình: 6.9 inches
+   🔹 Công nghệ màn hình: Super Retina XDR OLED
+   🔹 Camera sau: Camera chính: 48MP, f/1.78, 24mm, 2µm, chống rung quang học dịch chuyển cảm biến thế hệ thứ hai, Focus Pixels 100%
+Telephoto 2x 12MP: 52 mm, ƒ/1.6
+Camera góc siêu rộng: 48MP, 13 mm,ƒ/2.2 và trường ảnh 120°, Hybrid Focus Pixels, ảnh có độ phân giải
+   🔹 Camera trước: 12MP, ƒ/1.9, Tự động lấy nét theo pha Focus Pixels
+   🔹 Chipset: Apple A18 Pro
+   🔹 Công nghệ NFC: Có
+   🔹 Dung lượng RAM: 8 GB
+   🔹 Bộ nhớ trong: 256 GB
+   🔹 Thẻ SIM: Sim kép (nano-Sim và e-Sim) - Hỗ trợ 2 e-Sim
+   🔹 Hệ điều hành: iOS 18
+   🔹 Độ phân giải màn hình: 2868 x 1320 pixels
+   🔹 Tính năng màn hình: Dynamic Island
+Màn hình Luôn Bật
+Công nghệ ProMotion với tốc độ làm mới thích ứng lên đến 120Hz
+Màn hình HDR
+True Tone
+Dải màu rộng (P3)
+Haptic Touch
+Tỷ lệ tương phản 2.000.000:1
+   🔹 Loại CPU: CPU 6 lõi mới với 2 lõi hiệu năng và 4 lõi hiệu suất
+   🔹 Tương thích: Tương Thích Với Thiết Bị Trợ Thính
+==================================================
+
+ KẾT QUẢ KIỂM TRA:
+✅ Hiển thị thông số RAM, ROM, pin, CPU,...
+✅ Sản phẩm tồn tại
+   -> Đã xác thực được các thông số phần cứng quan trọng.
+Dec 10, 2025 12:40:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:40:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+TC11: Lấy danh sách Đánh giá & Kết luận...
+========== CHI TIẾT ĐÁNH GIÁ ==========
+1. Như Kiên | 5 sao
+2. Nguyễn Quốc Khánh | 5 sao
+3. Chu Văn An | 5 sao
+4. Chu Văn An | 4 sao
+5. Trần Thị Ngọc Linh | 5 sao
+=======================================
+
+ TC11: PASS
+KẾT LUẬN: Sản phẩm CÓ đánh giá (5 lượt đánh giá hiển thị, chưa hiển thị thêm).
+Dec 10, 2025 12:41:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:41:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+TC14: Kiểm tra sản phẩm ngừng kinh doanh...
+🔗 Link: https://cellphones.com.vn/iphone-11-pro-max-512gb.html
+
+ KẾT QUẢ KIỂM TRA:
+ CHECK 1: Nút 'Mua ngay' đã ẩn (Đúng).
+⚠️ CHECK 2: Không thấy nút đăng ký nhận tin (Có thể web đổi giao diện).
+Dec 10, 2025 12:43:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:43:38 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Tên sản phẩm: Điện thoại iPhone 16 Pro Max 256GB
+Giá sản phẩm: 30.990.000đ
+Class trước khi click: btn__effect button__add-wishlist inactive
+Class sau khi click: btn__effect button__add-wishlist active animate
+Class wishlist trên trang chi tiết: btn__effect button__add-wishlist active animate
+✅ TC06 PASSED: Wishlist vẫn còn sau khi mở sản phẩm
+Dec 10, 2025 12:44:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:44:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Kiểm tra Gallery ảnh...
+   -> Đã chọn thumbnail ảnh thứ 2.
+   -> Đã click vào ảnh chính.
+   -> Đang xem ảnh phóng to:
+Hình ảnh hiển thị đầy đủ và có chức năng phóng to
+Dec 10, 2025 12:44:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:44:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+🚀 Bắt đầu TC12: Lấy danh sách Đánh giá & Số sao...
+🌟 Tìm thấy 5 đánh giá:
+==================================================
+Review #1: Như Kiên
+   ⭐ Đánh giá: 5/5 sao
+   📝 Nội dung: Sản phẩm tốt, chất lượng tuyệt vời!
+   🕒 Thời gian: Đánh giá đã đăng vào 1 tiếng trước
+   🏷️ Tags: [Hiệu năng Siêu mạnh mẽ] [Thời lượng pin Cực khủng] [Chất lượng camera Chụp đẹp, chuyên nghiệp]
+--------------------------------------------------
+Review #2: Nguyễn Quốc Khánh
+   ⭐ Đánh giá: 5/5 sao
+   📝 Nội dung: Mua iPhone 16prm có được tặng củ sạc không ạ.Nếu không nên chọn loại nào phù hợp cho ip16pm
+   🕒 Thời gian: Đánh giá đã đăng vào 10 tiếng trước
+   🏷️ Tags: [Hiệu năng Siêu mạnh mẽ] [Thời lượng pin Cực khủng] [Chất lượng camera Chụp đẹp, chuyên nghiệp]
+--------------------------------------------------
+Review #3: Chu Văn An
+   ⭐ Đánh giá: 5/5 sao
+   📝 Nội dung: sản phẩm rất tốt
+   🕒 Thời gian: Đánh giá đã đăng vào 1 tuần trước
+   🏷️ Tags: [Hiệu năng Siêu mạnh mẽ] [Thời lượng pin Cực khủng] [Chất lượng camera Chụp đẹp, chuyên nghiệp]
+--------------------------------------------------
+Review #4: Chu Văn An
+   ⭐ Đánh giá: 4/5 sao
+   📝 Nội dung: sản phẩm rất tốt
+   🕒 Thời gian: Đánh giá đã đăng vào 1 tuần trước
+   🏷️ Tags: [Hiệu năng Siêu mạnh mẽ] [Thời lượng pin Cực khủng] [Chất lượng camera Chụp đẹp, chuyên nghiệp]
+--------------------------------------------------
+Review #5: Trần Thị Ngọc Linh
+   ⭐ Đánh giá: 5/5 sao
+   📝 Nội dung: 19t trả góp dc kh ạ
+   🕒 Thời gian: Đánh giá đã đăng vào 1 tháng trước
+--------------------------------------------------
+Dec 10, 2025 12:46:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:46:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+TC13: Viết đánh giá 5 sao...
+   -> Đã nhấn nút 'Viết đánh giá'.
+   -> Modal đánh giá đã hiển thị.
+   -> Đã chọn 5 sao (Tuyệt vời).
+   -> Đã nhập nội dung: Sản phẩm tốt, chất lượng tuyệt vời!
+   -> Đã nhấn nút 'GỬI ĐÁNH GIÁ'.
+TC12 PASSED: Bình luận đã hiển thị.
+Dec 10, 2025 12:46:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:46:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Tên sản phẩm vừa thêm wishlist: Điện thoại iPhone 16 Pro Max 256GB
+Giá sản phẩm vừa thêm wishlist:
+Class trước khi click: btn__effect button__add-wishlist inactive
+Class sau khi click: btn__effect button__add-wishlist active animate
+===== DANH SÁCH SẢN PHẨM YÊU THÍCH =====
+1. Điện thoại iPhone 16 Pro Max 256GB | 30.990.000đ
+✅ TC07 PASSED: Đã hiển thị danh sách wishlist thành công
+Dec 10, 2025 12:47:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:47:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Tên sản phẩm: Điện thoại iPhone 16 Pro Max 256GB
+Class trước khi click: btn__effect button__add-wishlist inactive
+Class sau khi click: btn__effect button__add-wishlist active animate
+Class sau khi reload: btn__effect button__add-wishlist active animate
+Nút wishlist sau khi reload vẫn còn
+Dec 10, 2025 12:47:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:47:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+TC15: So sánh sản phẩm...
+Sản phẩm gốc: iPhone 16 Pro Max 256GB
+   -> Đã nhấn nút kích hoạt so sánh.
+   -> Đã click vào ô 'Chọn sản phẩm so sánh'.
+Sản phẩm so sánh được chọn: iPhone 17 Pro Max 256GB | Chính hãng
+   -> Đã chọn sản phẩm thứ 3.
+   -> Đã nhấn nút 'So sánh' để chuyển trang.
+Tiêu đề trang so sánh: So Sánh Điện thoại iPhone 16 Pro Max 256GB và iPhone 17 Pro Max 256GB | Chính hãng
+
+ KẾT QUẢ KIỂM TRA:
+✅ SP đã có trong bảng so sánh
+Dec 10, 2025 12:48:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:48:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Tên sản phẩm: Điện thoại iPhone 16 Pro Max 256GB
+Giá sản phẩm: 489.000đ
+Class trước khi click: btn__effect button__add-wishlist inactive
+Class sau khi click: btn__effect button__add-wishlist active animate
+Dec 10, 2025 12:48:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:48:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+🚀 Bắt đầu TC19: Kiểm tra sản phẩm ngừng kinh doanh...
+🔗 Link: https://cellphones.com.vn/iphone-11-pro-max-512gb.html
+❌ Lỗi kỹ thuật trong quá trình kiểm tra element: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4cc526763e79d6db13664adad447e06a, findElements {value=//*[contains(@class,'button__register-stock') or contains(@class,'btn-register') or contains(text(),'ngừng kinh doanh')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\LAPTOP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61159}, goog:processID: 17744, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61159/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cc526763e79d6db13664adad447e06a
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=143.0.7499.41)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4cc526763e79d6db13664adad447e06a, findElements {value=//*[contains(@class,'button__register-stock') or contains(@class,'btn-register') or contains(text(),'ngừng kinh doanh')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\LAPTOP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61159}, goog:processID: 17744, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61159/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cc526763e79d6db13664adad447e06a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
+	at com.example.Cellphones.DoNhuKien_Lab7.testTC19_CheckOutOfStock_DiscontinuedProduct(DoNhuKien_Lab7.java:1010)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Dec 10, 2025 12:51:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:51:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Tên sản phẩm: Điện thoại iPhone 16 Pro Max 256GB
+Giá sản phẩm: 30.990.000đ
+Class trước khi click: btn__effect button__add-wishlist inactive
+Class sau khi click: btn__effect button__add-wishlist active animate
+Dec 10, 2025 12:51:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:51:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+🚀 Bắt đầu TC17: Truy cập phiên bản lỗi...
+🔗 Đang thử truy cập URL lỗi: https://cellphones.com.vn/iphone-16-pro-max-phien-ban-loi-12345.html
+ Tiêu đề trang hiện tại: Trang không tồn tại
+   -> Phát hiện nội dung thông báo lỗi trong trang.
+
+ KẾT QUẢ KIỂM TRA TC17:
+✅ Hiển thị thông báo "Phiên bản không hợp lệ" (Trang 404)
+Dec 10, 2025 12:52:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:52:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+TC13: Thêm vào giỏ và Kiểm tra...
+Tên gốc lấy được: Điện thoại iPhone 16 Pro Max 256GB
+🔧 Tên sau khi xử lý để tìm kiếm: iphone 16 pro max 256gb
+   -> Đã nhấn nút 'Thêm vào giỏ hàng'.
+❌ Lỗi vào trang giỏ hàng.
+Danh sách trong giỏ:
+   - iPhone 16 Pro Max 256GB | Chính hãng VN/A-Titan Sa Mạc
+   ✨ MATCH: Tìm thấy sản phẩm tương ứng!
+
+ KẾT QUẢ KIỂM TRA:
+✅ SP xuất hiện trong giỏ hàng
+✅ sp tồn tại
+Dec 10, 2025 12:53:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:53:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+TC16: Đổi phiên bản và check giá...
+Giá phiên bản hiện tại: 30.990.000đ
+🔄 Đang chuyển sang phiên bản: 1TB
+Giá phiên bản mới: 42.990.000đ
+
+ KẾT QUẢ KIỂM TRA:
+✅ Phiên bản được cập nhật, giá và thông tin thay đổi tương ứng
+Dec 10, 2025 12:53:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:53:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+🚀 Bắt đầu TC09: Lấy thông tin chi tiết sản phẩm...
+========================================
+THÔNG TIN SẢN PHẨM
+========================================
+1. Tên sản phẩm : Điện thoại iPhone 16 Pro Max 256GB
+2. Giá bán      : 30.990.000đ
+3. Link ảnh     : https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-pro-max.png
+4. Tính năng nổi bật:
+iPhone 16 Pro Max có thiết kế titan nhẹ và bền bỉ, với màn hình Super Retina XDR 6,9 inch lớn hơn.
+Tính năng Điều Khiển Camera cho phép truy cập nhanh các công cụ như thu phóng, giúp chụp ảnh dễ dàng.
+Camera Ultra Wide 48MP ghi lại chi tiết sắc nét, trong khi camera Telephoto 5x chụp xa ấn tượng.
+Video 4K Dolby Vision ở 120 fps cùng micrô chất lượng studio biến iPhone thành một studio chuyên nghiệp trong túi bạn.
+Ngoài ra, chip A18 Pro mang lại hiệu suất vượt trội cho cả việc chụp ảnh và chơi game.
+========================================
+✅ KẾT LUẬN: sản phẩm Điện thoại iPhone 16 Pro Max 256GB có tồn tại
+Dec 10, 2025 12:54:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:54:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Tên sản phẩm: Điện thoại iPhone 16 Pro Max 256GB
+Giá sản phẩm: 30.990.000đ
+Class trước khi click: btn__effect button__add-wishlist inactive
+Class sau khi click (ADD): btn__effect button__add-wishlist active animate
+Class sau khi click (REMOVE): btn__effect button__add-wishlist inactive deactivate
+Dec 10, 2025 12:54:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:54:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Tên sản phẩm: Điện thoại iPhone 16 Pro Max 256GB
+Giá sản phẩm: 489.000đ
+Class trước khi click: btn__effect button__add-wishlist inactive
+Class sau khi click (ADD): btn__effect button__add-wishlist active animate
+Class sau khi click tiếp (REMOVE): btn__effect button__add-wishlist inactive deactivate
+Dec 10, 2025 12:55:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 10, 2025 12:55:16 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.41. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+🚀 BƯỚC 1: MÔ PHỎNG TC01 - THÊM SẢN PHẨM...
+   -> Đã click THÊM sản phẩm vào Wishlist.
+🚀 BẮT ĐẦU QUY TRÌNH XÓA SẠCH WISHLIST...
+🔄 Số lượng sản phẩm còn lại: 1
+   -> Đang mở trang chi tiết để xóa...
+   -> Đã click XÓA tim.
+✅ Danh sách Wishlist đã TRỐNG. Kết thúc quy trình xóa.
+🏁 Đang kiểm tra kết quả cuối cùng...
+✅ Số lượng thực tế: 0
