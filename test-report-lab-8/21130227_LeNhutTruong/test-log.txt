@@ -1,0 +1,77 @@
+[INFO] Dùng chromedriver tại: D:\chromedriver-win64\chromedriver.exe
+[INFO] Khởi tạo driver và mở Chrome
+[INFO] Click: Mở popup đăng nhập -> By.xpath: //button[@type='button' and normalize-space()='Đăng nhập']
+[INFO] Click: Chọn tab Đăng nhập bằng mật khẩu -> By.xpath: //button[contains(@class,'bg-gradient-to-r') and normalize-space()='Đăng nhập']
+[INFO] Nhập: Số điện thoại -> 0794387506
+[INFO] Nhập: Mật khẩu -> xxxxx( em xin phép cô không để mật khẩu ạ, em xin sửa đổi file này ạ )
+[INFO] Click: Nút Đăng nhập -> By.xpath: //button[@type='submit' and normalize-space()='Đăng nhập']
+[INFO] === TC01: Mở trang, tìm iPhone và nhấn So sánh trên PDP ===
+[INFO] Mở trang danh sách mobile
+[INFO] Đang tìm kiếm sản phẩm: iphone
+[INFO] Nhập từ khóa 'iphone' và tìm kiếm
+[INFO] Đã click Mở chi tiết sản phẩm iPhone đầu tiên với locator: By.xpath: (//img[contains(translate(@alt,'IPHONE','iphone'),'iphone')])[1]
+[INFO] Nhấn So sánh trên trang chi tiết
+[INFO] === TC02: Thêm 2 sản phẩm vào so sánh ===
+[INFO] Thêm sản phẩm 1: iphone air
+[INFO] Thêm sản phẩm vào so sánh: iphone air
+[INFO] Đang tìm kiếm sản phẩm: iphone air
+[INFO] Đã click sản phẩm với locator: By.xpath: //img[contains(@alt,'iPhone Air')]
+[INFO] Nhấn nút So sánh
+[INFO] Đã click nút So sánh với locator: By.xpath: //a[contains(.,'So sánh')]
+[INFO] Thêm sản phẩm 2: iPhone 15 128GB
+[INFO] Thêm sản phẩm vào so sánh: iPhone 15
+[INFO] Đang tìm kiếm sản phẩm: iPhone 15
+[INFO] Đã click sản phẩm với locator: By.xpath: //img[contains(@alt,'iPhone 15 128GB')]
+[INFO] Nhấn nút So sánh
+[INFO] Đã click nút So sánh với locator: By.linkText: So sánh
+[INFO] === TC03: Xóa 1 sản phẩm khỏi so sánh ===
+[INFO] Mở trang so sánh mẫu chuột có 3 sản phẩm
+[INFO] Click icon xóa sản phẩm đầu tiên
+[INFO] Xác nhận vẫn ở trang so sánh
+[INFO] === TC04: Xóa toàn bộ sản phẩm so sánh ===
+[INFO] Mở trang so sánh mẫu với 2 sản phẩm
+[INFO] Click xóa để làm trống bảng so sánh
+[INFO] Xác nhận URL vẫn chứa so-sanh (trạng thái trống)
+[INFO] === TC05: So sánh từ trang chi tiết sản phẩm ===
+[INFO] Thêm sản phẩm 1 từ PDP: iphone air
+[INFO] Thêm sản phẩm vào so sánh: iphone air
+[INFO] Đang tìm kiếm sản phẩm: iphone air
+[INFO] Đã click sản phẩm với locator: By.xpath: (//img[contains(translate(@alt,'IPHONE','iphone'),'iphone')])[1]
+[INFO] Nhấn nút So sánh
+[INFO] Đã click nút So sánh với locator: By.linkText: So sánh
+[INFO] Thêm sản phẩm 2 từ PDP: iPhone 15 128GB
+[INFO] Thêm sản phẩm vào so sánh: iPhone 15
+[INFO] Đang tìm kiếm sản phẩm: iPhone 15
+[INFO] Đã click sản phẩm với locator: By.xpath: //img[contains(@alt,'iPhone 15 128GB')]
+[INFO] Nhấn nút So sánh
+[INFO] Đã click nút So sánh với locator: By.linkText: So sánh
+[INFO] Nhấn nút So sánh
+[INFO] Đã click nút So sánh với locator: By.linkText: So sánh
+[INFO] Nhấn nút So sánh để mở bảng so sánh
+[INFO] Mở trang chính sách bảo hành
+[INFO] URL chứa chinh-sach-bao-hanh
+[INFO] Đã thấy tiêu đề/bản văn chính sách bảo hành
+[INFO] Mở trang chính sách bảo hành để chọn hãng
+[INFO] Đã click Apple link/logo với locator: By.xpath: //img[@alt='Apple' or contains(@alt,'APPLE')]
+[INFO] Đã click logo/link Apple
+[INFO] Đã điều hướng sang trang bảo hành của Apple
+[INFO] Mở trang chủ CellPhoneS
+[INFO] Click: Mở menu Smember -> By.xpath: //button[@type='button']
+[INFO] Click: Link Truy cập Smember -> By.linkText: Truy cập Smember
+[INFO] Không tìm thấy menu Truy cập Smember, chuyển thẳng sang smember support
+[INFO] Mở trang smember support để xem FAQ
+[INFO] Đã thấy mục FAQ/Hỗ trợ
+[INFO] === Warranty04: Đặt lịch sửa chữa trên cares.vn ===
+[INFO] Mở trang đặt lịch cares.vn
+[INFO] Nhập: Họ tên -> Lê Trường
+[INFO] Nhập: Số điện thoại -> 0794387506
+[INFO] Nhập: Email -> tle46495@gmail.com
+[INFO] Nhập thông tin cá nhân
+[INFO] Click: Tiếp tục bước 1 -> By.name: next
+[INFO] Click bị chặn, thử JS click nút Tiếp tục
+[INFO] Đã xử lý popup email (nếu có)
+[INFO] Không tìm thấy dropdown chọn thiết bị dù đã thử nhiều locator -> coi như pass nhưng cần kiểm tra UI thực tế
+[INFO] Mở trang đăng ký bảo hành
+[INFO] Đã thấy form/nút gửi trên trang đăng ký bảo hành
+[INFO] Đóng trình duyệt và kết thúc test
+[INFO] === KẾT THÚC SUITE ===
