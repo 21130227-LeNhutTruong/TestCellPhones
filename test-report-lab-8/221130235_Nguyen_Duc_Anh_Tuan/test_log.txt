@@ -1,0 +1,110 @@
+=== TC01: Find Locator Near – Bắt đầu ===
+1. Mở trang chủ CellphoneS thành công.
+2. Đang chờ nút 'Cửa hàng gần bạn' xuất hiện...
+   ✔ Đã tìm thấy button 'Cửa hàng gần bạn'.
+3. Đã click vào button.
+4. Đợi chuyển hướng sang trang /dia-chi-cua-hang ...
+   ✔ Đã chuyển sang trang cửa hàng thành công.
+5. URL hiện tại: https://cellphones.com.vn/dia-chi-cua-hang
+=== TC01 PASSED ✓ – Chức năng hoạt động đúng ===
+=== TC02: Find Country – Tìm 'Bình Định' ===
+1. Mở trang chủ CellphoneS thành công.
+2. Đang chờ nút 'Cửa hàng gần bạn' xuất hiện...
+   ✔ Đã tìm thấy menu 'Cửa hàng gần bạn'.
+3. Đã click vào menu.
+   ✔ Đã vào trang địa chỉ cửa hàng.
+4. Đang tìm ô input 'Nhập vị trí để tìm cửa hàng gần nhất'...
+   ✔ Input tìm kiếm đã sẵn sàng.
+5. Đã nhập từ khóa: bình định
+=== TC02 PASSED ✓ – Đã nhập vị trí thành công ===
+=== TC03_FindNoBranch START ===
+[INFO] Opened Cellphones homepage
+[INFO] Clicked 'Cửa hàng gần bạn'
+[INFO] Typed brand: Samsung
+[PASS] Không có cửa hàng nào → hoạt động đúng.
+=== TC03_FindNoBranch END ===
+=== TC04_SeeInformation START ===
+[INFO] Opened Cellphones homepage
+[INFO] Clicked 'Cửa hàng gần bạn'
+[INFO] Typed: thủ đức
+[INFO] Found 10 address items
+[INFO] Clicked address: Xã Thượng Đức, Tỉnh Hà Tĩnh
+[PASS] Xem thông tin cửa hàng thành công!
+=== TC04_SeeInformation END ===
+---------------------------------------------------------------------
+
+=== TC01_FilterByBrand START ===
+[INFO] Opened Cellphones homepage
+[INFO] Clicked brand filter: Samsung
+[INFO] Samsung page loaded
+[INFO] FOUND PRODUCTS: 4
+[CHECK] Samsung Galaxy Z Flip7 12GB 256GB
+[CHECK] Samsung Galaxy Z Fold7 12GB 256GB
+[CHECK] Samsung Galaxy Z Fold7 12GB 512GB
+[CHECK] Samsung Galaxy Z Flip7 12GB 512GB
+[PASS] Tất cả sản phẩm đều thuộc hãng Samsung!
+=== TC01_FilterByBrand END ===
+
+=== TC02_FilterByBrand_NoProduct START ===
+[INFO] Opened Cellphones homepage
+[ERROR] Test failed: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(@href,'/mobile/google')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49224}, goog:processID: 11768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49224/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c52f59962e2e03d7aff7aec1a87073f
+=== TC02_FilterByBrand_NoProduct END ===
+
+=== TC03_FilterByPrice START ===
+[INFO] Opened Cellphones homepage
+[INFO] Clicked brand Samsung
+[ERROR] Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Xem theo giá')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49747}, goog:processID: 27668, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49747/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d33b3f617eed5a2ac7e5e634bc2d3ac
+=== TC03_FilterByPrice END ===
+
+=== TC04_FilterByPrice_NoProduct START ===
+[INFO] Opened Cellphones homepage
+[INFO] Clicked brand Samsung
+[ERROR] Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Xem theo giá')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50103}, goog:processID: 14732, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50103/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f662dd566553b35acd0e3da650208d3
+=== TC04_FilterByPrice_NoProduct END ===
+
+=== TC05_FilterByRam START ===
+[INFO] Opened Cellphones homepage
+[INFO] Clicked Samsung category
+[ERROR] Test failed: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Dung lượng RAM')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50402}, goog:processID: 30580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50402/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1af53b61c619881258f0d472deb2638f
+=== TC05_FilterByRam END ===
+
+=== TC06_FilterByMoreOption START ===
+[INFO] Opened Samsung page
+[INFO] Opened filter: Kiểu màn hình
+[INFO] Selected Giọt nước (JS click)
+[ERROR] Test failed: element click intercepted: Element <button class="btn-filter button__filter-parent">...</button> is not clickable at point (668, 20). Other element would receive the click: <button class="navbar__item button__menu">...</button>
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d25a49d428432f4dcba12e752ab26fd, clickElement {id=f.5C5E1B27D52FE3753A3CC332F4DCB559.d.20145F0F829A41046F5F902A15E67987.e.152}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50660}, goog:processID: 10756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50660/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5d25a49d428432f4dcba12e752ab26fd)] -> xpath: //button[contains(text(),'Hàng mới về')]]
+Session ID: 5d25a49d428432f4dcba12e752ab26fd
+=== TC06_FilterByMoreOption END ===
+
+=== TC07: SẮP XẾP GIÁ THẤP → CAO ===
+Đã click Giá Thấp - Cao (click JS)
+=== KẾT QUẢ SAU KHI SẮP XẾP GIÁ ===
+❌ Không có sản phẩm nào hiển thị!
+=== Đã đóng trình duyệt ===
