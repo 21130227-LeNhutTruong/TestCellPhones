@@ -2,16 +2,13 @@ package com.example.Cellphones;
 
 import java.io.PrintWriter;
 import java.time.Duration;
-import java.util.Arrays;
-import java.util.List;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.*;
-import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class AllTestCases_Rewrite {
+public class VuThienTan_Lab7 {
 
     private static final String BASE_URL = "https://cellphones.com.vn/";
     private static final Duration TIMEOUT = Duration.ofSeconds(20);
