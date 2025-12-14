@@ -42,7 +42,7 @@ public class DoNhuKien_Lab7 {
     }
 
     // ================== HÀM LOGIN ==================
-    private void loginSmember() throws InterruptedException {
+    public void loginSmember() throws InterruptedException {
 
         driver.get("https://cellphones.com.vn/");
         Thread.sleep(2000);

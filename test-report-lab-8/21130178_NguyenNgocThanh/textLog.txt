@@ -1,0 +1,71 @@
+=== TC1Login BẮT ĐẦU ===
+✔ Mở trang Cellphones
+➡ Bước 1: Click nút đăng nhập đầu tiên
+✔ Đã click nút đăng nhập đầu tiên
+➡ Chờ overlay đăng nhập biến mất...
+✔ Overlay biến mất
+➡ Bước 2: Click nút đăng nhập thứ 2 trong popup
+✔ Đã click nút đăng nhập thứ 2
+➡ Bước 3: Nhập số điện thoại
+✔ Đã nhập số điện thoại
+➡ Bước 4: Nhập mật khẩu
+✔ Đã nhập mật khẩu
+➡ Bước 5: Click nút đăng nhập hoàn tất
+✔ Đã click đăng nhập
+=== TC1Login - Completed ===
+=== TC2XemDiemThuong BẮT ĐẦU ===
+✔ Mở trang Cellphones
+➡ Click button[@type='button']
+✔ Đã click nút menu
+➡ Tìm và click 'Truy cập Smember'
+✔ Đã click Truy cập Smember
+➡ Chờ URL chuyển sang Smember...
+➡ Tìm và click 'Hạng thành viên và ưu đãi'
+✔ Đã click Hạng thành viên & ưu đãi
+=== TC2XemDiemThuong - Completed ===
+=== TC3XemLichSuMuaHang BẮT ĐẦU ===
+✔ Mở trang Cellphones
+➡ Click button[@type='button']
+✔ Đã click nút menu
+➡ Click 'Truy cập Smember'
+✔ Đã click Truy cập Smember
+✔ Đã chuyển qua tab Smember
+➡ Click 'Tổng quan' → span theo ảnh
+✔ Đã click Tổng quan
+➡ Mở trang lịch sử mua hàng
+➡ Click icon SVG Lịch sử mua hàng
+✔ Đã click icon lịch sử
+=== TC3XemLichSuMuaHang - Completed ===
+=== TC4_DSTinTuc BẮT ĐẦU ===
+✔ Mở trang Cellphones
+➡ Scroll xuống cuối trang...
+➡ Nếu có popup thì đóng...
+✔ Không có popup
+➡ Tìm element 'Tin tức'
+➡ Scroll tới nút Tin tức
+➡ Click nút Tin tức
+➡ Chuyển sang tab mới SForum
+✔ Đã vào SForum
+➡ Click bài viết Coros Apex 4
+✔ Đã mở bài Coros Apex 4
+=== TC5New BẮT ĐẦU ===
+✔ Mở trang Cellphones
+➡ Scroll xuống cuối trang...
+➡ Kiểm tra popup...
+✔ Không có popup
+➡ Click Tin tức
+✔ Đã click Tin tức
+➡ Chuyển sang tab SForum
+✔ Đã vào SForum
+➡ Click mục Đánh giá
+✔ Đã click Đánh giá
+➡ Click span Đánh giá tiếp theo
+✔ Đã click Đánh giá (span)
+➡ Click Trang chủ
+✔ Đã click Trang chủ
+➡ Click Gia dụng
+✔ Đã click Gia dụng
+➡ Click Gaming Gear
+✔ Đã click Gaming Gear
+=== TC5New - Completed ===
+=== Đóng browser ===
