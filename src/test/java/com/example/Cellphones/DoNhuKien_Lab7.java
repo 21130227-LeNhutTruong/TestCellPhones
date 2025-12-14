@@ -60,7 +60,7 @@ public class DoNhuKien_Lab7 {
 
         WebElement passInput = driver.findElement(By.xpath("//input[@placeholder='Nhập mật khẩu của bạn']"));
         passInput.clear();
-        passInput.sendKeys("Nhukien24@");
+        passInput.sendKeys("Nhukien24");
         Thread.sleep(1000);
 
         driver.findElement(By.xpath("//button[@type='submit' and normalize-space()='Đăng nhập']")).click();
