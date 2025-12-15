@@ -1,0 +1,52 @@
+ ===============================================
+TC02
+[STEP 1] Truy cập trang Cellphones
+[STEP 2] Click vào ô tìm kiếm
+[STEP 3] Nhập từ khóa: lót chuột
+[STEP 4] Nhấn ENTER để tìm kiếm
+[WAIT] Chờ trang kết quả tìm kiếm load...
+[STEP 5] Click sản phẩm đầu tiên trong danh sách
+[WAIT] Chờ trang chi tiết sản phẩm...
+[STEP 6] Click nút 'Thêm vào giỏ'
+✅ [RESULT] Thêm sản phẩm vào giỏ hàng thành công
+
+ ===============================================
+TC03
+[PRE-CONDITION] Mở trang Cellphones
+[STEP 1] Click icon Giỏ hàng
+[STEP 2] Tick checkbox chọn sản phẩm
+[INFO] Checkbox đã được tick sẵn
+[STEP 3] Click nút 'Mua ngay'
+✅ [RESULT] Click Mua ngay thành công
+ ===============================================
+ [TC04] Điền thông tin giao hàng
+ ✔ Đang ở trang Payment Info
+ ✔ Đã chọn Quận 6
+ ✔ Đã chọn cửa hàng Hậu Giang Q.6
+ ✔ Đã chọn Không xuất hóa đơn
+ ✔ TC04 hoàn tất – chuyển sang trang chọn thanh toán
+  ===============================================
+ [TC05] Thanh toán bằng Momo
+ ✔ Đang ở trang chọn phương thức thanh toán
+ Chọn phương thức Momo
+ Xác nhận phương thức thanh toán
+ Nhấn Thanh toán
+  ===============================================
+ [TC06] Thanh toán bằng VNPAY
+ ✔ Đang ở trang chọn phương thức thanh toán
+ Chọn phương thức VNPAY
+ ✔ Đã chọn VNPAY
+ ✔ Đã hiển thị QR VNPAY
+  ===============================================
+ [TC07] Thanh toán tại cửa hàng
+ ✔ Đang ở trang chọn phương thức thanh toán
+ ✔ Đã chọn Thanh toán tại cửa hàng
+ ✔ Đã nhấn Xác nhận
+ ✔ Đã nhấn Thanh toán tại cửa hàng
+ ✔ [TC07] Hoàn tất thanh toán tại cửa hàng
+ ===============================================
+ [TC08] Kiểm tra chi tiết đơn hàng
+ ✔ Đã nhấn Kiểm tra đơn hàng
+ ✔ Đã chuyển sang trang chi tiết đơn hàng
+ ✔ Hiển thị chi tiết đơn hàng thành công
+ ✅ [TC08] Kiểm tra đơn hàng thành công
