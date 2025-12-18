@@ -1,0 +1,239 @@
+C:\Users\trant\.jdks\ms-21.0.8\bin\java.exe -ea -Didea.test.cyclic.buffer.size=1048576 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\lib\idea_rt.jar=3804:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\plugins\junit\lib\junit-rt.jar;E:\Assignment_Testing\target\test-classes;E:\Assignment_Testing\target\classes;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\trant\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\trant\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\trant\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\trant\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\trant\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\trant\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\trant\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\trant\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\trant\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\trant\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\trant\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\trant\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\trant\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\trant\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\trant\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\trant\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\trant\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\trant\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\trant\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\trant\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\trant\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\trant\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\trant\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\trant\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\trant\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\trant\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\trant\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\trant\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\trant\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\trant\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\trant\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\trant\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\trant\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\trant\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\trant\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\trant\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\trant\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\trant\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\trant\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\trant\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\trant\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\trant\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar" com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit4 com.example.Cellphones.TranThanhTri_Lab7
+thg 12 18, 2025 2:55:19 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 2:55:19 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+1. Truy cập trang sản phẩm iPhone 14...
+>>> Đã click nút Mua Ngay.
+   -> Đã chuyển sang trang Giỏ hàng.
+✅ Test 01 - PASSED: Đã thấy iPhone 14 trong giỏ hàng.
+thg 12 18, 2025 2:55:52 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 2:55:52 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+>>> Tìm thấy 1 sản phẩm. Đang xóa...
+WARN: Không thấy popup xác nhận (có thể đã xóa luôn).
+>>> Giỏ hàng đã sạch.
+thg 12 18, 2025 2:56:56 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 2:56:56 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+1. Truy cập trang sản phẩm iPhone 14...
+>>> Đã click nút Mua Ngay (Button mới).
+Số lượng ban đầu: 1
+>>> Đã nhấn nút tăng số lượng (+).
+Số lượng sau khi tăng: 2
+✅ Test 03 - PASSED.
+thg 12 18, 2025 2:57:30 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 2:57:30 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+1. Truy cập trang sản phẩm iPhone 14...
+>>> Đã click nút Mua Ngay.
+Số lượng hiện tại: 3
+Số lượng trước khi Giảm (-): 3
+>>> Đã nhấn nút Giảm (-).
+Số lượng sau khi giảm: 2
+thg 12 18, 2025 2:58:06 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 2:58:06 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+1. Truy cập trang sản phẩm iPhone 14...
+>>> Đã click nút Mua Ngay.
+Số lượng trước khi xóa: 1
+>>> Đã nhấn nút Xóa.
+INFO: Không thấy popup xác nhận (hoặc đã xóa luôn).
+Số lượng sau khi xóa: 0
+thg 12 18, 2025 2:59:12 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 2:59:12 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+1. [Setup] Đang điều hướng đến bước thanh toán...
+👉 Đang xử lý: TỈNH / THÀNH PHỐ -> Hồ Chí Minh
+   ...Click vào input: TỈNH / THÀNH PHỐ
+   ✅ Đã chọn: Hồ Chí Minh
+👉 Đang xử lý: QUẬN / HUYỆN -> Quận 1
+   ...Click vào input: QUẬN / HUYỆN
+   ✅ Đã chọn: Quận 1
+👉 Đang xử lý: CỬA HÀNG -> Nguyễn Thái Học
+   ...Click vào input: CỬA HÀNG
+   ✅ Đã chọn: Nguyễn Thái Học
+2. Bắt đầu nhập mã giảm giá sai...
+   -> Đã nhập: GIAMGIA
+   -> Đã nhấn nút Xác nhận trên Popup.
+3. Kiểm tra thông báo lỗi...
+   -> Tìm thấy text trên màn hình: Xem giá tại
+Hồ Chí Minh
+.cls-1 { fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8px; }
+Gọi mua hàng
+1800.2097
+.cls-1 { fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8px; }
+Cửa hàng
+gần bạn
+.cls-1, .cls-2, .cls-3 { fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; } .cls-1 { stroke-width: 1.66px; } .cls-2 { stroke-width: 1.66px; } .cls-3 { stroke-width: 1.8px; }
+Tra cứu
+đơn hàng
+.cls-1 { fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8px; }
+Giỏ
+hàng
+1
+Thanh
+Thanh toán
+1. THÔNG TIN
+2. THANH TOÁN
+MÃ GIẢM GIÁ
+Áp dụng
+Số lượng sản phẩm
+01
+Tổng tiền hàng
+14.990.000đ
+Phí vận chuyển
+Miễn phí
+Giảm giá trực tiếp
+- 1.300.000đ
+Tổng tiền
+Đã gồm VAT và được làm tròn
+13.690.000đ
+THÔNG TIN THANH TOÁN
+Chọn phương thức thanh toán
+Giảm thêm tới 200.000đ
+THÔNG TIN NHẬN HÀNG
+Khách hàng
+S-NULL Trí Thanh
+Số điện thoại
+0366084837
+Email
+tranthanhtri0147@gmail.com
+Nhận hàng tại
+134 Nguyễn Thái Học, P. Phạm Ngũ Lão, Q.1, TP HCM
+Bằng việc Đặt hàng, bạn đồng ý với Điều khoản sử dụng của CellphoneS.
+Với các giao dịch từ 10 triệu trở lên, CellphoneS xin phép kiểm tra thẻ cứng và CCCD của đúng chủ thẻ trước khi tiến hành giao hàng nhằm hạn chế các trường hợp gian lận.
+Tổng tiền tạm tính:
+13.690.000đ
+Thanh toán
+Kiểm tra danh sách sản phẩm (1)
+Thông Báo
+×
+Mã giảm giá không khả dụng. Vui lòng kiểm tra lại.
+✅ TEST PASSED: Đã hiển thị đúng thông báo lỗi.
+thg 12 18, 2025 3:00:14 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 3:00:14 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+1. Truy cập trang sản phẩm iPhone 14...
+>>> Đã click nút Mua Ngay (Add to cart).
+2. Bắt đầu quy trình Checkout...
+2. Test kịch bản: NHẬN TẠI CỬA HÀNG...
+👉 Đang xử lý: TỈNH / THÀNH PHỐ -> Hồ Chí Minh
+   ...Click vào input: TỈNH / THÀNH PHỐ
+   ✅ Đã chọn: Hồ Chí Minh
+👉 Đang xử lý: QUẬN / HUYỆN -> Quận 1
+   ...Click vào input: QUẬN / HUYỆN
+   ✅ Đã chọn: Quận 1
+👉 Đang xử lý: CỬA HÀNG -> 218-220 Trần Quang Khải
+   ...Click vào input: CỬA HÀNG
+   ✅ Đã chọn: 218-220 Trần Quang Khải
+   (Warning: Không điền được thông tin khách: no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@placeholder, 'Họ tên') or contains(@placeholder, 'tên người nhận')]"}
+  (Session info: chrome=143.0.7499.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1290979a1c9ebab33dccf390cb42a911, findElement {using=xpath, value=//input[contains(@placeholder, 'Họ tên') or contains(@placeholder, 'tên người nhận')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.110, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\trant\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1059}, goog:processID: 14332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1059/devtool..., se:cdpVersion: 143.0.7499.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1290979a1c9ebab33dccf390cb42a911)
+   -> Kiểm tra thông tin hiển thị (Cửa hàng)...
+✅ Scenario A - PASSED.
+3. Test kịch bản: GIAO HÀNG TẬN NƠI...
+👉 Đang xử lý: TỈNH / THÀNH PHỐ -> Hồ Chí Minh
+   ...Click vào input: TỈNH / THÀNH PHỐ
+   ✅ Đã chọn: Hồ Chí Minh
+👉 Đang xử lý: QUẬN / HUYỆN -> Quận 9
+   ...Click vào input: QUẬN / HUYỆN
+   ✅ Đã chọn: Quận 9
+👉 Đang xử lý: PHƯỜNG / XÃ -> Phường Tăng Nhơn Phú A
+   ...Click vào input: PHƯỜNG / XÃ
+   ✅ Đã chọn: Phường Tăng Nhơn Phú A
+   -> Đã nhập số nhà: 87/6 đường 379
+   -> Đã chọn xuất hóa đơn: KHÔNG
+   -> Đang chuyển sang trang xác nhận...
+   -> Kiểm tra thông tin hiển thị (Giao tận nơi)...
+✅ Scenario B - PASSED (Thông tin nhận hàng chính xác).
+thg 12 18, 2025 3:01:49 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 3:01:49 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+Test 10: Kiểm tra truy cập trang Khuyến mãi và hiển thị Icon...
+   -> Đang kiểm tra hiển thị các icon...
+   ✅ Đã thấy: boxHotSale
+   ✅ Đã thấy: boxUuDai
+   ✅ Đã thấy: boxPromotion
+✅ Test 09 - PASSED (Đã hiển thị đủ 3 icon).
+thg 12 18, 2025 3:02:20 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 3:02:20 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+Test 11: Click banner Deal Siêu Hot và Xem chi tiết...
+   -> Đang chọn mục Deal Siêu Hot...
+   -> Đang tìm nút 'Xem chi tiết'...
+   -> URL sau khi click: https://cellphones.com.vn/uu-dai-doi-tac/shinhan-finance-iphone-17
+✅ Test 10 - PASSED (Đã chuyển sang trang chi tiết).
+thg 12 18, 2025 3:02:55 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 3:02:55 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+Test 12: Kiểm tra chuyển đổi Tab Ưu Đãi Thanh Toán...
+   (Warning: Không tìm thấy tiêu đề section, cố gắng tìm tab trực tiếp...)
+   -> Click Tab 1: Ưu đãi thẻ ngân hàng
+      (Warning: Không check được content cụ thể, nhưng Tab click không lỗi)
+   -> Click Tab 2: Mở thẻ nhận quà
+   -> Click Tab 3: Mua trước trả sau
+      (Warning: Không check được content cụ thể, nhưng Tab click không lỗi)
+   -> Click Tab 4: Ưu đãi ví điện tử
+      (Warning: Không check được content cụ thể, nhưng Tab click không lỗi)
+✅ Test 11 - PASSED (Các tab hoạt động bình thường).
+thg 12 18, 2025 3:04:22 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 3:04:22 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+Test 13: Kiểm tra nút 'Xem chi tiết' thẻ ngân hàng...
+   -> Click icon Ưu đãi thanh toán (boxUuDai)...
+   -> Tìm và nhấn nút 'Xem chi tiết'...
+   -> URL sau khi click: https://cellphones.com.vn/uu-dai-doi-tac/shinhan-finance-iphone-17
+✅ Test 12 - PASSED (Nút hoạt động bình thường).
+thg 12 18, 2025 3:04:59 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 3:04:59 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+Test 13: Kiểm tra hiển thị Giá gốc và Giá khuyến mãi...
+   -> Đã click tab 'Điện thoại'
+   -> Đang tìm một sản phẩm có đủ 2 loại giá...
+      ✅ Giá khuyến mãi: Điện thoại
+      ✅ Giá gốc: 18.650.000đ
+✅ Test 13 - PASSED.
+thg 12 18, 2025 3:05:31 CH org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+thg 12 18, 2025 3:05:31 CH org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+   -> Đã nhấn nút đăng nhập.
+Test 15: Xem khuyến mãi theo danh mục sản phẩm (Điện thoại)...
+   -> Đang truy cập danh mục Điện thoại...
+   -> Đang chọn bộ lọc 'Khuyến mãi HOT'...
+   -> Kiểm tra danh sách sản phẩm...
+      (Warning: Không check được nhãn giảm giá cụ thể, nhưng danh sách đã hiển thị).
+      ✅ Filter 'Khuyến mãi HOT' đang được kích hoạt.
+✅ Test 14 - PASSED.
+
+Process finished with exit code 0
